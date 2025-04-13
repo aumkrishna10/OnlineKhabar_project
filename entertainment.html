@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News - Online Khabar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="category-page">
+
+    <div class="top-nav">
+        <div class="container">
+            <div class="date-time" id="current-date"></div>
+            <div class="top-links">
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="advertise.html">Advertise</a>
+                <div class="social-icons">
+                    <a href="https://facebook.com/onlinekhabar" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/onlinekhabar" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/onlinekhabar" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/onlinekhabar" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Home">
+                    <img src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/main-logo-new.svg" alt="Online Khabar Logo">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container">
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="main-menu">
+                <i class="fas fa-bars"></i> Menu
+            </button>
+            <ul id="main-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="politics.html"><i class="fas fa-landmark"></i> Politics</a></li>
+                <li><a href="business.html"><i class="fas fa-chart-line"></i> Business</a></li>
+                <li><a href="society.html"><i class="fas fa-users"></i> Society</a></li>
+                <li><a href="world.html"><i class="fas fa-globe"></i> World</a></li>
+                <li><a href="sports.html"><i class="fas fa-running"></i> Sports</a></li>
+                <li><a href="entertainment.html" class="active" aria-current="page"><i class="fas fa-film"></i> Entertainment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="breaking-news" aria-live="polite">
+        <div class="container">
+            <span class="breaking-label">BREAKING</span>
+            <div class="ticker">
+                <ul id="breaking-news-ticker">
+             
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <main class="container" id="main-content">
+        <h1 class="page-title">Entertainment News</h1>
+        
+        <!-- Featured Entertainment News -->
+        <section class="featured-section" aria-labelledby="featured-entertainment-heading">
+            <h2 id="featured-entertainment-heading" class="section-title"><span>Featured Entertainment</span></h2>
+            <div class="featured-grid" id="featured-entertainment-container">
+                <!-- Will show:
+                1. Nepali film 'Prem Geet 3' breaks opening day records
+                -->
+            </div>
+        </section>
+
+        <!-- Latest Entertainment News -->
+        <section class="latest-news" aria-labelledby="latest-entertainment-heading">
+            <h2 id="latest-entertainment-heading" class="section-title"><span>Latest Entertainment</span></h2>
+            <div class="news-grid" id="entertainment-news-container">
+                <!-- Will show:
+                1. Nepal Idol season 5 announces auditions
+                2. International film festival to showcase 12 Nepali movies
+                3. Popular singer Samikshya Adhikari announces pregnancy
+                -->
+            </div>
+            <div class="load-more">
+                <button id="load-more-entertainment" class="btn-primary">
+                    <i class="fas fa-plus"></i> Load More News
+                </button>
+            </div>
+        </section>
+
+
+        <section class="celebrity-section" aria-labelledby="celebrity-news-heading">
+            <h2 id="celebrity-news-heading" class="section-title"><span>Celebrity News</span></h2>
+            <div class="celebrity-grid" id="celebrity-news-container">
+                <!-- Will show:
+                1. Exclusive interview: Anmol KC on his new film and marriage plans
+                2. Behind the scenes with Miss Nepal 2023 contestants
+                -->
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <a href="index.html" aria-label="Home">
+                        <img src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/main-logo-new.svg" alt="Online Khabar Logo" class="footer-logo">
+                    </a>
+                    <p>Online Khabar is Nepal's leading digital news portal established in 2006, providing news in both Nepali and English languages.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/onlinekhabar" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/onlinekhabar" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com/onlinekhabar" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/onlinekhabar" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="politics.html">Politics</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="society.html">Society</a></li>
+                        <li><a href="world.html">World</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="advertise.html">Advertise</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Subscribe</h3>
+                    <p>Get the latest news delivered to your inbox</p>
+                    <form class="subscribe-form" id="newsletter-form">
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Online Khabar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="category.js"></script>
+</body>
+</html>
